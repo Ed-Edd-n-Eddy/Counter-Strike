@@ -3,11 +3,12 @@
 #include "BattleField.h"
 
 int main() {
-  BattleField battleField;
 
-  createPlayers(&battleField);
-  buyPistols(&battleField);
-  startBattle(&battleField);
+  createPlayers();
+
+  buyPistols();
+
+  startBattle();
 
   return EXIT_SUCCESS;
 }

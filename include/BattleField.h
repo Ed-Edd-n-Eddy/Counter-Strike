@@ -7,10 +7,25 @@ typedef struct {
   Player players[PLAYERS_COUNT];
 } BattleField;
 
-void createPlayers(BattleField* bf);
+/*
+Skeleton function
+*/
+void createPlayers();
 
-void buyPistols(BattleField* bf);
+/*
+Skeleton function
+*/
+void buyPistols();
 
-void startBattle(BattleField* bf);
+/*
+Skeleton function
+*/
+void startBattle();
+
+/*
+Function that implements shooting. Returns true if shooter player
+kills target player.
+*/
+int playerShoots(Player * shooter, Player * target);
 
 #endif /* BATTLEFIELD_H_ */
